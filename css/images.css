@@ -1,0 +1,99 @@
+/*  Name: Ankush Ahir, Student Number: 8938881 */ 
+body{
+    width: 1400px;
+    max-width: 100%;
+    padding: 30px;
+    margin: 2px 5% auto ;
+    font: small-caps x-large 2em sans-serif;
+    background-color: #083D77;
+}
+.style{
+    border: 6px solid #A09BE7;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+h1{
+    color: black;
+    font-variant: small-caps;
+}
+h2{
+    color: #E5E8B6;
+    font-variant: small-caps;
+}
+p{
+    color: #A09BE7;
+}
+footer p {
+    color: black;
+    font-size: 15px;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: large;
+    color: #A09BE7;
+}
+ul li{
+    list-style: none;
+    line-height: 3em;
+}
+ul > li > a{
+    color: #A09BE7;
+    text-decoration-line: none;
+}
+a:hover{
+    color: #F58A07;
+}
+footer{
+    color: #E3D3E4;
+    font-weight: bold;
+    padding: 20px 0;
+    clear: both;
+}
+aside{
+    float: right;
+    width: 300px;
+    margin: 10px 0%;
+    background-image: url(../images/aside.jpeg);
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    background-color: #A09BE7;
+    border-radius: 5px;
+}
+.flexbox a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color:#083D77;
+}
+.flexbox a:hover{
+    color: #F58A07;
+}
+img{
+    max-width: 40%;
+    width: 350px;
+    height: 350px;
+    grid-column: 3;
+    grid-row: 3;
+    clip-path: polygon(0 0, 96% 4%, 99% 97%, 6% 93%);
+}
+main{
+    float: left;
+    width: 1060px
+}
+@media screen, print {
+
+    body{
+         font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  @media screen and (max-width: 600px){
+      aside{
+          background-image: url(../images/aside.jpeg);
+      }   
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/form.css">
+<!-- Name: Ankush Ahir, Student Number: 8938881-->
+</head>
+<body>
+    <header class="style">
+        <h1> Elon Musk </h1>
+    </header>
+    <nav class="flexbox">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+</nav>
+    <main>
+        <h2> Contact </h2>
+      <form>
+      <div>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" required autofocus>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" required>
+      </div>
+       <div>
+        <legend>Do you have any issues?</legend>
+        <fieldset>
+            <div>
+                <input type="radio" id="1" name="yes" value="1" checked>
+                <label for="Yes">Yes</label><br>
+            </div>
+            <div>
+                <input type="radio" id="2" name="no" value="2">
+                <label for="No">No</label><br>
+            </div>
+        </fieldset>
+            <div>
+                 <label for="problem">What do you need help with? </label>
+                <select name="problem" id="problem" required>
+                    <option value="select" selected>Select option</option>
+                    <option value="html">Pages</option>
+                    <option value="css">Images</option>
+                    <option value="both">Website</option>
+                </select>
+            </div>
+            <div>
+                <label for="textarea">Comments</label>
+                <textarea type="text" cols="30" rows="4" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="human" name="human" value="true" required>
+                <label >I am a human</label>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+       </div>
+    </form>
+    </main>
+    <aside>
+        <h2> Additional Information </h2>
+        <ul>
+            <li> <a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank"> Wikipedia </a></li>
+            <li> <a href="https://www.forbes.com/profile/elon-musk/?sh=35eccbfd7999" target="_blank"> Forbes </a></li>
+            <li> <a href="https://www.britannica.com/biography/Elon-Musk" target="_blank"> Britannica</a></li>
+        </ul>
+    </aside>
+    <footer class="style">
+      <p> &copy; Ankush Ahir, 2024</p>
+    </footer>
+</body>
+</html>
